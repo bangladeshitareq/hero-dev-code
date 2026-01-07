@@ -23,7 +23,20 @@
   font-weight: bold;
   cursor: pointer;
 
-
+}
+.section-heading{
+  min-width: 827px;
+  text-align: center;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
 }
 /* main style */
 
@@ -68,7 +81,7 @@ nav .menu a{
 
 #banner{
 display: flex;
-border: 1px solid red;
+/* border: 1px solid red; */
 margin: 47px 38px 0 230px;
 justify-content: space-between;
 align-items: center;
@@ -85,7 +98,7 @@ align-items: center;
 }
 
 #banner .barrer-content h1{
-  font-size: 70px;
+  font-size: 80px;
   font-weight: bold;
   color: #181818;
   margin-bottom: 20px;
@@ -103,4 +116,32 @@ align-items: center;
 #banner .banner-image{
 max-width: 585px;
 vertical-align: middle;
+}
+
+#about{
+  padding-top: 130px;
+}
+#about .about-container {
+  width: 66%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 156px;
+}
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card {
+ margin-bottom: 30px;
+ line-height: 30px;
+ font-size: 20xp;
+  color: #757575;
+}
+
+.about-info .info-card h4 {
+  font-size: 20px;
+  color: #000000;
+
 }
